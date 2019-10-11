@@ -6,8 +6,8 @@ def reverse_each_word1(words)
   return words.join(" ")
 end
 
-def reverse_each_word2(words)
-  words = words.split(" ")
-  words = words.collect {|word| word.reverse}
-  return words.join(" ")
-end
+# def reverse_each_word2(words)
+#   words = words.split(" ")
+#   words = words.collect {|word| word.reverse}
+#   return words.join(" ")
+# end
